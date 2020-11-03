@@ -90,7 +90,7 @@ void handle_socket(int fd)
 		char  path[100] = "./file/";
 	    tmp1 = strstr(buffer,"filename=");
 	    strcpy(filename, tmp1+10);
-	    for(int i = 0; i < strlen(filename); i++)
+	    for(i = 0; i < strlen(filename); i++)
 	    {
 		    if(filename[i]=='"')
 		    {
