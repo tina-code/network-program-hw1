@@ -1,4 +1,4 @@
 all:
-	gcc server-1.c -o server
+	gcc server.c -o server
 clean:
 	rm server 
